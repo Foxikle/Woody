@@ -23,6 +23,7 @@ public class SkullItemEditor extends ItemEditor {
      * Sets the texture applied to this Skull.
      * @param value The VALUE of the skin, not the signature. The value is a base64 string with the skin url, and some other relevant details.
      * @return This editor
+     * @author Foxikle
      */
     public SkullItemEditor setTexture(@NotNull String value) {
         PlayerProfile profile = Bukkit.getServer().createProfile(UUID.randomUUID(), "player_head");
